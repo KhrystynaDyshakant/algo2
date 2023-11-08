@@ -16,7 +16,7 @@ def bfs(graph, start_node):
 
 def find_root(graph):
     for candidate in graph:
-        if not any(candidate in bfs(graph, v) for v in graph if v != candidate):
+        if not any(candidate in bfs(graph, c) for c in graph if c != candidate):
             return candidate
     return -1
 
