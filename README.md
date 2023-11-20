@@ -154,8 +154,8 @@ root.right = BinaryTree(20)
 In:
 3
 1 2
- 2 4
- 3 5
+2 4
+3 5
 ```
 
 Out:
